@@ -1,0 +1,51 @@
+{
+	"id": "pf2e-dragonkin",
+	"title": "PF2e Dragonkin",
+	"description": "An unofficial conversion of the <a href=\"https://www.drivethrurpg.com/product/378138/Lost-Omens-Ancestries-Dragonkin\">Lost Omens Ancestries: Dragonkin</a> versatile heritage.<br />This module aims to be an up-to-date version of the ancestry for Foundry VTT, as previous versions of modules that contained it (PF2e Expansion/Extension Pack) came with errors or were outdated.",
+	"version": "1.0.0",
+	"compatibility": {
+		"minimum": "11",
+		"verified": "11"
+	},
+	"relationships": {
+		"systems": [
+			{
+				"id": "pf2e",
+				"type": "system",
+				"compatibility": {}
+			}
+		]
+	},
+	"authors": [
+		{
+			"name": "MrVauxs",
+			"discord": "@vauxs",
+			"email": "mrvauxs@gmail.com",
+			"url": "mrvauxs.net",
+			"flags": {}
+		}
+	],
+	"packs": [
+		{
+			"name": "dragonkin",
+			"label": "Dragonkin",
+			"path": "packs/dragonkin",
+			"type": "Item",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"system": "pf2e",
+			"flags": {}
+		}
+	],
+	"flags": {
+		"pf2e-dragonkin": {
+			"pf2e-homebrew": {
+				"creatureTraits": {
+					"dragonkin": "Dragonkin"
+				}
+			}
+		}
+	}
+}
